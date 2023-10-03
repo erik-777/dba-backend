@@ -1,0 +1,27 @@
+{
+  "name": "backend-banco-alimentos",
+  "version": "1.0.0",
+  "description": "API Backend",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "banco",
+    "alimentos"
+  ],
+  "author": "Erik Vergara",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "axios": "^1.5.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "joi": "^17.10.2",
+    "sequelize": "^6.33.0",
+    "uuid": "^9.0.1",
+    "yallist": "^4.0.0"
+  }
+}
